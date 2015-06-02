@@ -6,7 +6,7 @@ shinyUI(navbarPage("Data Quality", id = "DQ", inverse = TRUE, collapsable = FALS
 			#Selector for file upload
 			fileInput("datafile", "Choose ZIP file",
 					  accept=c("zip", "zip file")),
-			h6("After uploading the file go to "Data Description" tab"),
+			h6("After uploading the file go to 'Data Description' tab"),
 			br(),
 			br(),
 			br(),
